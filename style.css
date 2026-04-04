@@ -9,12 +9,12 @@ body {
     display: flex;
     flex-shrink: 0;
     justify-content: space-between;
-    padding: 20px 200px;
 }
 
 .lowerheader {
     padding-bottom: 70px;
-    
+    padding-top: 20px;
+    gap: 15px;
 }
 
 .upperheader div {
@@ -28,18 +28,31 @@ body {
     flex-direction: column; 
     align-items: left;
     justify-content: space-between;
-    gap: 10px;
 }
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+
+
 
 button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px;
     border-radius: 10px;
-    border-color: #1f2937;
-
+    border-color: #1f2937
 }
 
-.lowerhead.headerleft {
+.button {
+    padding-right: 270px;
+}
 
+.header-section {
+    padding: 10px 200px;
+    background-color: #1f2937;
+    flex-direction: column;
 }
