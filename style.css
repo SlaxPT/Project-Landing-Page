@@ -36,9 +36,6 @@ body {
     color: #f9faf8;
 }
 
-
-
-
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -49,10 +46,81 @@ button {
 
 .button {
     padding-right: 270px;
+    padding-top: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
-.header-section {
+.header-section, .section-1 {
     padding: 10px 200px;
     background-color: #1f2937;
     flex-direction: column;
+}
+
+.section-1 {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-2 {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images img{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.images div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 180px;
+}
+
+.image-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-2 {
+    display: flex;
+    padding: 10px 200px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.quote {
+    padding-bottom: 0px;
+    padding-top: 80px;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 22px;
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 80px;
 }
