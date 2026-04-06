@@ -41,7 +41,6 @@ button {
     color: #f9faf8;
     padding: 10px;
     border-radius: 10px;
-    border-color: #1f2937
 }
 
 .button {
@@ -124,3 +123,25 @@ button {
     padding-right: 100px;
     padding-bottom: 80px;
 }
+
+.section-3 {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 50px;
+    margin: 50px 200px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.action-button {
+    border: solid #f9faf8 2px;
+}
+
+.title-action {
+    font-weight: 900;
+    font-size: 20px;
+}
+
